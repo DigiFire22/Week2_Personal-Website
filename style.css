@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
+:root {
+    --headings: #FAED26;
+    --text: #86C232;
+    --background: #222629;
+    --Headings-Font-Familiy: 'Permanent Marker', cursive;
+    --Text-Font-Familiy: 'Bangers', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--Text-Font-Familiy);
+    color: var(--text);
+}
+
+h1{
+    color: var(--headings);
+    font-family: var(--Headings-Font-Familiy);
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted var(--text) 16px;
+    border-bottom: none;
+    margin: 5rem auto;
+    width: 10%;
+}
+
+.middle-container{
+    margin: 2.5rem 0;
+}
+
+.image-cropper{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 450px;
+}
+
+footer{
+    color: var(--text);
+}
